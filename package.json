@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "Vaibhav Shaw",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.4",
+    "short-unique-id": "^5.2.0",
+    "shortid": "^2.2.16"
+  }
+}
