@@ -8,12 +8,18 @@ A simple service that takes in a valid URL and returns a shortened URL. The serv
 - Redirect to the original URL using the shortened version.
 - Track the total number of visits/clicks on each URL.
 - Access URL analytics to check the number of clicks.
+- Display analytics and URLs in a user-friendly interface with **EJS** templates and **CSS** styling.
 
 ## API Endpoints
 
-1. **POST /url** – Generate a shortened URL.
-2. **GET /:id** – Redirect to the original URL.
-3. **GET /url/analytics/:id** – Get the click count for a specific URL.
+- **POST** `/url` – Generate a shortened URL.
+- **GET** `/:id` – Redirect to the original URL.
+- **GET** `/url/analytics/:id` – Get the click count for a specific URL.
+
+## Frontend
+
+- **EJS templates** are used to render dynamic pages.
+- **CSS** is added for styling to enhance the user interface.
 
 ## Setup
 
@@ -24,5 +30,6 @@ A simple service that takes in a valid URL and returns a shortened URL. The serv
 
 ## Tech Stack
 
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
+- **Backend**: Node.js, Express.js
+- **Frontend**: EJS, CSS
+- **Database**: MongoDB
